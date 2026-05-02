@@ -1,7 +1,7 @@
 🧬 modrosnlr5 – Linux Kernel LPE PoC (CVE-2026-31431)
 
 <p align="center">
-  <img src="assets/modrosnlr5-banner.png" alt="modrosnlr5 banner" width="100%">
+  <img src="assets/poc-af_alg-exploit.png" alt="PoC AF_ALG Exploit Visual" width="100%" height="auto">
 </p>
 
 Herramienta de prueba de concepto diseñada para validar la explotación de la vulnerabilidad **CVE-2026-31431** en sistemas Linux.  
