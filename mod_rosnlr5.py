@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python3
 """
 ROSN-LR5  |  Kernel LPE PoC para CVE-2026-31431
