@@ -1,10 +1,8 @@
-Aquí tienes una versión completamente reescrita, con vocabulario renovado, enfoque distinto y sin rastro de “MODO HEFINSITO”. La base técnica es la misma, pero el tono y la presentación parecen otro proyecto.
+🧬 modrosnlr5 – Linux Kernel LPE PoC (CVE-2026-31431)
 
----
-
-# 🧬 modrosnlr5 – Linux Kernel LPE PoC (CVE-2026-31431)
-
-<img width="5072" height="1536" alt="banner_modrosnlr5" src="https://github.com/user-attachments/assets/4958e704-80b5-4f7b-94df-9984e0682f98" />
+<p align="center">
+  <img src="assets/modrosnlr5-banner.png" alt="modrosnlr5 banner" width="100%">
+</p>
 
 Herramienta de prueba de concepto diseñada para validar la explotación de la vulnerabilidad **CVE-2026-31431** en sistemas Linux.  
 El exploit aprovecha la interfaz de sockets `AF_ALG` del kernel para inyectar una carga útil y obtener una shell con privilegios de **root** a partir de una sesión de usuario sin permisos.
@@ -42,15 +40,9 @@ El exploit aprovecha la interfaz de sockets `AF_ALG` del kernel para inyectar un
 ### Comando
 ```bash
 python3 mod_rosnlr5.py
-```
+📘 Créditos
+Investigación original y PoC base: copy.fail
 
----
+Adaptación, automatización y desarrollo del repositorio: ROSNLR5
 
-## 📘 Créditos
-
-- Investigación original y PoC base: **copy.fail**  
-- Adaptación, automatización y desarrollo del repositorio: **ROSNLR5**
-
----
-
-*modrosnlr5 – fundamentos de escalada local sobre AF_ALG*
+modrosnlr5 – fundamentos de escalada local sobre AF_ALG
